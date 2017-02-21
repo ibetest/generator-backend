@@ -8,5 +8,4 @@ links:
   Testing: "http://172.30.40.30:80/kubernetes/pods?namespace=default-testing"
 environments:
   Testing: "default-testing"
-  Staging: "default-staging"
-  Production: "default-prod"
+useLocalFlow: true
