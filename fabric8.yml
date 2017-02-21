@@ -1,0 +1,12 @@
+---
+buildName: "ibetest-generator-backend"
+links:
+  Git: "https://github.com/ibetest/generator-backend"
+  Job: "http://jenkins.default.10.3.10.63.xip.io/job/ibetest-generator-backend"
+  Production: "http://172.30.40.30:80/kubernetes/pods?namespace=default-prod"
+  Staging: "http://172.30.40.30:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://172.30.40.30:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-prod"
